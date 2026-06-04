@@ -2,14 +2,12 @@
 title: "BIG South London"
 client: "Recognition Design and Marketing"
 tags: ["Brand", "Web Design", "Print", "Signage", "Video"]
-thumbnail: /assets/images/projects/big-south-london/thumbnail.jpg
+thumbnail: /assets/images/projects/big-south-london/big-2.jpg
 images:
-  - /assets/images/projects/big-south-london/01.jpg
-  - /assets/images/projects/big-south-london/02.jpg
-  - /assets/images/projects/big-south-london/03.jpg
-  - /assets/images/projects/big-south-london/04.jpg
-  - /assets/images/projects/big-south-london/05.jpg
-  - /assets/images/projects/big-south-london/06.jpg
+  - /assets/images/projects/big-south-london/big-1.jpg
+  - /assets/images/projects/big-south-london/big-2.jpg
+  - /assets/images/projects/big-south-london/big-3.jpg
+  - /assets/images/projects/big-south-london/big-4.jpg
 project_url: 
 url_label: ""
 order: 2
