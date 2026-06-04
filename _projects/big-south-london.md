@@ -10,7 +10,7 @@ images:
   - /assets/images/projects/big-south-london/04.jpg
   - /assets/images/projects/big-south-london/05.jpg
   - /assets/images/projects/big-south-london/06.jpg
-project_url: https://www.big-knowledge.co.uk
+project_url: 
 url_label: ""
 order: 2
 ---
