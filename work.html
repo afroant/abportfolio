@@ -14,11 +14,12 @@ permalink: /work/
       {% else %}
       <div class="placeholder">{{ project.title }}</div>
       {% endif %}
-      <div class="project-card-info">
+      <div class="project-card-overlay">
         <div class="project-card-title">{{ project.title }}</div>
-        {% if project.tags %}<div class="project-card-tags">{{ project.tags | join: " · " }}</div>{% endif %}
       </div>
     </a>
   </article>
   {% endfor %}
 </div>
+
+<a href="#" class="back-to-top">↑ Back to Top</a>

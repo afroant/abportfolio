@@ -12,8 +12,8 @@
   </button>
 
   <ul class="nav-links">
-    <li><a href="{{ '/work' | relative_url }}" {% if page.url contains '/work' or page.layout == 'project' %}class="active"{% endif %}>Work</a></li>
-    <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a></li>
+    <li><a href="{{ '/work' | relative_url }}" {% if page.url == '/work/' or page.layout == 'project' %}class="active"{% endif %}>Work</a></li>
+    <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
     <li class="email-btn"><a href="mailto:{{ site.email }}">Email me</a></li>
   </ul>
 </nav>

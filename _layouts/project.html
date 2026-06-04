@@ -3,17 +3,7 @@ layout: default
 ---
 
 <div class="project-page">
-  <a href="{{ '/work' | relative_url }}" class="back-link">← Back to work</a>
-
-  <header class="project-header">
-    <h1>{{ page.title }}</h1>
-    {% if page.tags or page.client %}
-    <div class="project-meta">
-      {% if page.client %}<span>{{ page.client }}</span>{% endif %}
-      {% if page.tags %}{{ page.tags | join: " · " }}{% endif %}
-    </div>
-    {% endif %}
-  </header>
+  <h1>{{ page.title }}</h1>
 
   {% if page.images %}
   <div class="project-images">
@@ -23,7 +13,7 @@ layout: default
   </div>
   {% else %}
   <div class="project-images">
-    <div class="placeholder">Image coming soon</div>
+    <div class="placeholder">Images coming soon</div>
   </div>
   {% endif %}
 
@@ -32,7 +22,7 @@ layout: default
 
     {% if page.url_label and page.project_url %}
     <a href="{{ page.project_url }}" class="project-link" target="_blank" rel="noopener">
-      {{ page.url_label }} ↗
+      {{ page.url_label }}
     </a>
     {% endif %}
   </div>
