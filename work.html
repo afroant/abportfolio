@@ -1,0 +1,24 @@
+---
+layout: default
+title: Work
+permalink: /work/
+---
+
+<div class="work-grid">
+  {% assign projects = site.projects | sort: "order" %}
+  {% for project in projects %}
+  <article class="project-card">
+    <a href="{{ project.url | relative_url }}">
+      {% if project.thumbnail %}
+      <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}" loading="lazy">
+      {% else %}
+      <div class="placeholder">{{ project.title }}</div>
+      {% endif %}
+      <div class="project-card-info">
+        <div class="project-card-title">{{ project.title }}</div>
+        {% if project.tags %}<div class="project-card-tags">{{ project.tags | join: " · " }}</div>{% endif %}
+      </div>
+    </a>
+  </article>
+  {% endfor %}
+</div>

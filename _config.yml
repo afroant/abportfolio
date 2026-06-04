@@ -1,0 +1,24 @@
+title: Antony Bridle Design
+description: Multi-disciplined freelance graphic designer based in the UK
+url: "https://antonybridle.com"
+baseurl: ""
+
+email: hello@antonybridle.com
+
+collections:
+  projects:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
